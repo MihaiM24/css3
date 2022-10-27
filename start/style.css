@@ -1,0 +1,136 @@
+html{
+    font-size: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "zero_big zero_big zero_big zero_big"
+                            "plus minus multiply square"
+                            "seven eight nine equal"
+                            "four five six equal"
+                            "one two three equal"
+                            "zero dot AC equal";      
+    padding: 5px;  
+    width: 400px;;
+	height: 550px;
+    gap: 0px;
+                
+}
+#zero_big{
+    grid-area: zero_big;
+    border: 1px solid rgb(22, 46, 73); 
+    background: rgb(75, 72, 72);
+    text-align: right;
+    padding-top: 6px;
+    color: white;
+    padding-right: 6px;
+}
+#plus{
+    grid-area: plus;
+    border: 1px solid rgb(22, 46, 73);   
+    text-align: center;
+    background: rgb(135, 133, 133);
+    padding-top: 10px;
+}
+#minus{
+    grid-area: minus;
+    border: 1px solid rgb(22, 46, 73); 
+    background: rgb(135, 133, 133);
+    text-align: center;
+    padding-top: 5px;
+}
+#multiply{
+    grid-area: multiply;
+    border: 1px solid rgb(22, 46, 73);  
+    background: rgb(135, 133, 133);
+    text-align: center;
+    padding-top: 10px;
+}
+#square{
+    grid-area: square;
+    border: 1px solid rgb(22, 46, 73);  
+    background: rgb(135, 133, 133);
+    text-align: center;
+    padding-top: 10px;
+}
+#one{
+    grid-area: one;
+    border: 1px solid rgb(22, 46, 73);  
+    text-align: center;
+    padding-top: 10px;
+}
+#two{
+    grid-area: two;
+    border: 1px solid rgb(22, 46, 73);  
+    text-align: center;
+    padding-top: 10px;
+}
+#three{
+    grid-area: three;
+    border: 1px solid rgb(22, 46, 73);  
+    text-align: center;
+    padding-top: 10px;
+}
+#four{
+    grid-area: four;
+    border: 1px solid rgb(22, 46, 73);  
+    text-align: center;
+    padding-top: 10px;
+}
+#five{
+    grid-area: five;
+    border: 1px solid rgb(22, 46, 73);  
+    text-align: center;
+    padding-top: 10px;
+}
+#six{
+    grid-area: six;
+    border: 1px solid rgb(22, 46, 73);  
+    text-align: center;
+    padding-top: 10px;
+}
+#seven{
+    grid-area: seven;
+    border: 1px solid rgb(22, 46, 73);  
+    text-align: center;
+    padding-top: 10px;
+}
+#eight{
+    grid-area: eight;
+    border: 1px solid rgb(22, 46, 73); 
+    text-align: center; 
+    padding-top: 10px;
+}
+#nine{
+    grid-area: nine;
+    border: 1px solid rgb(22, 46, 73);  
+    text-align: center;
+    padding-top: 10px;
+}
+#zero{
+    grid-area: zero;
+    border: 1px solid rgb(22, 46, 73); 
+    text-align: center; 
+    padding-top: 10px;
+
+}
+#dot{
+    grid-area: dot;
+    border: 1px solid rgb(45, 89, 138);  
+    text-align: center;
+    padding-top: 10px;
+}
+#AC{
+    grid-area: AC;
+    border: 1px solid rgb(45, 89, 138);  
+    text-align: center;
+    padding-top: 10px;
+}
+#equal{
+    grid-area: equal;
+    border: 1px solid rgb(22, 46, 73);  
+    background-color: rgb(229, 160, 160);
+    text-align: center;
+    padding-top: 120px;
+}
